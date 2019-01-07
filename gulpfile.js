@@ -48,6 +48,8 @@ gulp.task('images', require('./gulpfile-tasks/images')(gulp, plugins, paths));
 
 gulp.task('fonts', require('./gulpfile-tasks/fonts')(gulp, paths));
 
+gulp.task('cname', require('./gulpfile-tasks/cname')(gulp, paths));
+
 
 // for now, have to use the nunjucks task in gulpfile as externalising it throws an error with gulp-data
 // gulp.task('nunjucks', require('./gulpfile-tasks/html')(gulp, plugins, paths));
