@@ -4,7 +4,7 @@ Source to build static site of Aqovia using Travis, Gulp and Nunjucks.
 On your local machine:
 * run "npm install" to install dependencies
 * run "npm run gulp" to clean and build the site
-* run "npm run gulp" to run a testing site that will refresh with every changes (or so)
+* run "npm run gulp serve" to run a testing site that will refresh with every changes (or so)
 
 HTML content is in the folder _src/html  
 New pages should be added to _src/html/pages  
